@@ -1,0 +1,36 @@
+.site-header {
+  border-bottom: 1px solid #ccc;
+  padding: .5em 1em;
+}
+
+.site-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-identity {
+  float: left;
+}
+
+.site-identity img {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-navigation {
+  float: right;
+}
+
+.site-navigation ul, li a {
+  margin: 0;
+  padding: 0;
+  color: #ff0079;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}

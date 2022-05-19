@@ -1,0 +1,34 @@
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/couple.jpg);
+  height: 52vmin;
+  background-position:center;
+  background-size: cover;
+  color: white;
+  position: relative
+}
+.banner-text {
+  color: white;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner h1 {
+  font-size: 60px;
+  line-height: 10px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
+}
+
+.banner p {
+font-size: 20px;
+font-weight:lighter;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
+}
+
+.banner a {
+   margin-top: 80px;
+   font-weight:bolder;
+}
